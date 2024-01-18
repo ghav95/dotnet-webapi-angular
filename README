@@ -1,0 +1,7 @@
+PRÉ-REQUISITOS
+1 - Instalar o NodeJS. NodeJS já vem com o npm Node Package Manager
+2 - Instalar o .NET 5.0.102
+3 - Instalar o Angular 12: npm install -g @angular/cli@12
+
+ETAPAS
+1 - Criar um projeto WebAPI: dotnet new webapi -n ProEventos.API (Utilize dotnet new webapi -h para mais informações)
