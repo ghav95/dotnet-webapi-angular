@@ -1,3 +1,4 @@
+The objective is to build a responsive API with some SPA to show the design and the project goals building graduativaly, valuing simplicity of the Clean Code/Architecture. Technologies: .NET Core 5, Angular 12, Entity Framework Core as ORM.
 PRÉ-REQUISITOS
 1 - Instalar o NodeJS. NodeJS já vem com o npm Node Package Manager
 2 - Instalar o .NET 5.0.102
