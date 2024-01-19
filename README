@@ -1,8 +1,0 @@
-The objective is to build a responsive API with some SPA to show the design and the project goals building graduativaly, valuing simplicity of the Clean Code/Architecture. Technologies: .NET Core 5, Angular 12, Entity Framework Core as ORM.
-PRÉ-REQUISITOS
-1 - Instalar o NodeJS. NodeJS já vem com o npm Node Package Manager
-2 - Instalar o .NET 5.0.102
-3 - Instalar o Angular 12: npm install -g @angular/cli@12
-
-ETAPAS
-1 - Criar um projeto WebAPI: dotnet new webapi -n ProEventos.API (Utilize dotnet new webapi -h para mais informações)

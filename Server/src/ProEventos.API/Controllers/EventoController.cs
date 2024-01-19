@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using ProEventos.API.Models;
 
 namespace ProEventos.API.Controllers
 {
@@ -17,9 +18,19 @@ namespace ProEventos.API.Controllers
         }
 
         [HttpGet]
-        public string Get()
+        public IEnumerable<Evento> Get()
         {
-            return "Get: get example";
+            return new Evento[]{
+                new Evento() {
+                    Id = 1,
+                    Tema = "Angular e .NET 5",
+                    Local = "São Paulo",
+                    Lote = "1",
+                    QtdPessoas = 1,
+                    DataEvento = DateTime.Now.AddDays(2).ToString(),
+                    ImagemURL = "img.png"
+                }
+            };
         }
         
         [HttpPost]
