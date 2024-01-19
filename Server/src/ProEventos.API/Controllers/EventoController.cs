@@ -22,7 +22,7 @@ namespace ProEventos.API.Controllers
         {
             return new Evento[]{
                 new Evento() {
-                    Id = 1,
+                    IdEvento = 1,
                     Tema = "Angular e .NET 5",
                     Local = "São Paulo",
                     Lote = "1",
