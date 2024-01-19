@@ -34,3 +34,8 @@ Microsoft.EntityFrameworkCore           -> Install in .csproj (5.0.2)
 Microsoft.EntityFrameworkCore.Tools     -> Install in .csproj (5.0.2)
 Microsoft.EntityFrameworkCore.Design    -> Install in .csproj (5.0.2)
 Microsoft.EntityFrameworkCore.Sqlite    -> Install in .csproj (5.0.2)
+
+CREATING A DATA CONTEXT 
+Create DataContext.cs and Implements Interface DBContext
+Inject DataContext Dependency as a service on Startup.cs
+Add ConnectionStrings on appsettings.json
